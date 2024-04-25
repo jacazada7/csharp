@@ -23,8 +23,12 @@ public class Personagem
         this.armasEquipamentos = armasEquipamentos;
     }
 
-    public string GetNome() { return nome; }
-    public void SetNome(string nome) { this.nome = nome; }
+    public string GetNome() { 
+        return nome; 
+    }
+    public void SetNome(string nome) { 
+        this.nome = nome; 
+    }
     public int GetNivel() { return nivel; }
     public void SetNivel(int nivel) { this.nivel = nivel; }
     public double GetPontuacao() { return pontuacao; }
